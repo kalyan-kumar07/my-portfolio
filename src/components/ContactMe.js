@@ -27,7 +27,7 @@ function ContactMe() {
         },
         {
             icon: <FaMapMarkerAlt size={20} />,
-            label: "Vijayawada, Andhra Pradesh",
+            label: "Salur,Vizianagaram, Andhra Pradesh",
         },
     ];
 

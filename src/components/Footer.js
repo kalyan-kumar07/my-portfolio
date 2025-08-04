@@ -1,6 +1,7 @@
 import React from "react";
-import nameSVG from "../assets/text (1).svg";
+import nameSVG from "../assets/pic.svg";
 import { FaCode } from "react-icons/fa";
+
 
 function Footer() {
   return (

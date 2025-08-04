@@ -42,7 +42,7 @@ function Experience() {
         {
             role: "Web Development Intern",
             company: "Tech Mind Solutions",
-            duration: "january2024 – March 2024",
+            duration: "January 2024 – March 2024",
             techStack: [
                 { name: "HTML", icon: <SiHtml5 color="#e34c26" /> },
                 { name: "CSS", icon: <SiCss3 color="#264de4" /> },
@@ -50,8 +50,7 @@ function Experience() {
                 { name: "React", icon: <SiReact color="#61DAFB" /> },
                 { name: "Bootstrap", icon: <FaBootstrap color="#7952B3" /> },
             ],
-            project:
-                "Created Employee Management System.",
+            project: "Created Employee Management System.",
             responsibilities: [
                 "Built responsive UI with HTML, CSS, and Bootstrap.",
                 "Handled dynamic DOM manipulation using JavaScript.",
@@ -60,11 +59,9 @@ function Experience() {
             ],
             icon: <FaCodeBranch className="text-warning" size={24} />,
         },
-
-
         {
             role: "Web Development Intern",
-            company: "Web Ninjas Technologies ",
+            company: "Web Ninjas Technologies",
             duration: "April 2024 – July 2024",
             techStack: [
                 { name: "HTML", icon: <SiHtml5 color="#e34c26" /> },
@@ -73,8 +70,7 @@ function Experience() {
                 { name: "React", icon: <SiReact color="#61DAFB" /> },
                 { name: "Bootstrap", icon: <FaBootstrap color="#7952B3" /> },
             ],
-            project:
-                "Created Single Page Applications (SPA) using React.",
+            project: "Created Single Page Applications (SPA) using React.",
             responsibilities: [
                 "Built responsive UI with HTML, CSS, and Bootstrap.",
                 "Handled dynamic DOM manipulation using JavaScript.",
@@ -127,9 +123,9 @@ function Experience() {
                                 backdropFilter: "blur(10px)",
                             }}
                         >
-                            {/* Duration Badge */}
+                            {/* Duration Badge - Desktop */}
                             <span
-                                className="position-absolute top-0 end-0 badge bg-info text-dark"
+                                className="position-absolute top-0 end-0 badge bg-info text-dark d-none d-md-inline"
                                 style={{
                                     transform: "translate(-10px, 10px)",
                                     fontSize: "0.8rem",
@@ -140,11 +136,19 @@ function Experience() {
                                 {exp.duration}
                             </span>
 
-                            {/* Title */}
-                            <div className="d-flex align-items-center gap-2 mb-2">
-                                {exp.icon}
-                                <h5 className="mb-0 text-info fw-semibold">{exp.role}</h5>
+                            {/* Title + Duration for Mobile */}
+                            <div className="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2 mb-2">
+                                <div className="d-flex align-items-center gap-2">
+                                    {exp.icon}
+                                    <h5 className="mb-0 text-info fw-semibold">{exp.role}</h5>
+                                </div>
+                                {/* Mobile Badge */}
+                                <span className="badge bg-info text-dark d-inline d-md-none mt-2">
+                                    {exp.duration}
+                                </span>
                             </div>
+
+                            {/* Company */}
                             <h6 className="text-light mb-3">
                                 {exp.company === "APCFSS" ? (
                                     <div className="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2">
