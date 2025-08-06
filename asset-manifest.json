@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.f2b489f2.css",
-    "main.js": "/my-portfolio/static/js/main.84e9694a.js",
+    "main.js": "/my-portfolio/static/js/main.7bd6ad61.js",
     "static/js/453.c9a60987.chunk.js": "/my-portfolio/static/js/453.c9a60987.chunk.js",
     "static/media/bootstrap-icons.woff?": "/my-portfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/my-portfolio/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/Alajangi_kalyan_kumar.pdf": "/my-portfolio/static/media/Alajangi_kalyan_kumar.1963c33351a67f23ed82.pdf",
     "static/media/shared image.jpg": "/my-portfolio/static/media/shared image.4d83b7f86dc8b8562fca.jpg",
     "static/media/apcfss-logo.svg": "/my-portfolio/static/media/apcfss-logo.1256a95faa788281fd068aa7ae9acc9d.svg",
     "static/media/pic.svg": "/my-portfolio/static/media/pic.46e35bd8a2323bbd114c71e74b29aec6.svg",
@@ -14,11 +15,11 @@
     "static/media/vs-code.svg": "/my-portfolio/static/media/vs-code.3d8fea0ed9043ed9bf421bbdb507a21e.svg",
     "index.html": "/my-portfolio/index.html",
     "main.f2b489f2.css.map": "/my-portfolio/static/css/main.f2b489f2.css.map",
-    "main.84e9694a.js.map": "/my-portfolio/static/js/main.84e9694a.js.map",
+    "main.7bd6ad61.js.map": "/my-portfolio/static/js/main.7bd6ad61.js.map",
     "453.c9a60987.chunk.js.map": "/my-portfolio/static/js/453.c9a60987.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2b489f2.css",
-    "static/js/main.84e9694a.js"
+    "static/js/main.7bd6ad61.js"
   ]
 }
