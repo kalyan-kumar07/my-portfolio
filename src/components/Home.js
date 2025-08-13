@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import profileImage from "../assets/shared image.jpg";
 import { motion } from "framer-motion";
+import resume from "../assets/Alajangi_kalyan_kumar.pdf";
+
+
 import {
     SiHtml5, SiCss3, SiJavascript, SiReact,
     SiSpringboot, SiPostgresql, SiBootstrap,
@@ -82,7 +85,7 @@ function Home() {
                                 {/* Resume Download Button */}
                                 <motion.div whileTap={{ scale: 0.95 }}>
                                     <a
-                                        href="/Alajangi kalyan_kumar.pdf"
+                                        href={resume}
                                         download
                                         className="btn btn-outline-warning fw-semibold text-light"
                                         style={{
